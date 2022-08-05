@@ -1,0 +1,21 @@
+.search-page-container{
+    /* height: calc(100vh - 100px); */
+    /* width: 100%; */
+    /* display: none; */
+    height: calc(100vh - 76px);
+}
+
+.search-page-container .searchBox{
+    /* margin: 15px; */
+    padding: 15px 15px 0px 15px;
+}
+.search-page-container .hrLine{
+    margin-top: 15px;
+    border-top: 0.8px solid #585858;
+}
+.search-page-container .searchListWrapper{
+    /* margin: 0 15px; */
+    height: calc(100vh - 185px);
+    overflow-y: scroll;
+    z-index: 1;
+}

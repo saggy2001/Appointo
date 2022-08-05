@@ -1,0 +1,49 @@
+.profile-page-con{
+    /* height: calc(100vh - 96px); */
+}
+
+.profile-picture{
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.profile-picture img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid white;
+    outline: 1px solid grey;
+}
+
+.profile-page-con .title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.profile-page-con .tabContainer{
+    /* padding: 15px 0; */
+}
+.tabContainer .detailTab{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #353535;
+}
+
+.detailTab .leftIcon{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.detailTab .detail{
+    width: 80%;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 16%;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+}

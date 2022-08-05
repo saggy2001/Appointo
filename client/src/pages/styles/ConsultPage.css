@@ -1,0 +1,41 @@
+.consult-page-container{
+    height: calc(100vh - 76px);
+}
+
+.consult-page-container .searchBox{
+    /* margin: 15px; */
+    padding: 15px 15px 0px 15px;
+}
+.consult-page-container .hrLine{
+    margin-top: 15px;
+    border-top: 0.8px solid #585858;
+}
+.consult-page-container .searchListWrapper{
+    /* margin: 0 15px; */
+    height: calc(100vh - 205px);
+    overflow-y: scroll;
+    z-index: 1;
+    padding-top: 5px;
+}
+
+.selectWrapper{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.selectWrapper select {
+    width: 160px;
+    border: 1px solid #878787;
+    padding: 2px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.selectWrapper select:focus {
+    min-width: 160px;
+    width: auto;
+    border-color: #bace24;
+}
+.selectWrapper select::selection{
+    border-color: #bace24;
+}

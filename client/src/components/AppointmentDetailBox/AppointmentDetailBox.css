@@ -1,0 +1,27 @@
+.appointmentBoxContainer {
+  margin-bottom: 15px;
+}
+
+.appointmentBoxContainer .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.appointmentBoxContainer .header .headerText {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.appointmentBoxContainer .header .seeAllLink {
+  font-size: 14px;
+  color: #ffd016;
+  font-weight: 500;
+}

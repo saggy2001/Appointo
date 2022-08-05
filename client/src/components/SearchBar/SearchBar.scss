@@ -1,0 +1,26 @@
+.searchBarContainer{
+    margin-bottom: 20px;
+    background: #f6f6f6;
+    padding: 12px;
+    border-radius: 10px;
+    color: #6f6f6f;
+
+    .searchIcon{
+        position: absolute;
+        background: inherit;
+        color: inherit;
+    }
+
+    .searchBarInput{
+        padding-left: 35px;
+        width: 100%;
+        background: inherit;
+        border: none;
+        outline: none;
+
+        &::placeholder{
+            color: inherit;
+        }
+    }
+
+}

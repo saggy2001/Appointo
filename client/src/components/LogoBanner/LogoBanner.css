@@ -1,0 +1,22 @@
+.bannerContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+.bannerContainer .bannerWrapper img {
+  width: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .bannerContainer .bannerWrapper img {
+    width: 300px;
+  }
+}

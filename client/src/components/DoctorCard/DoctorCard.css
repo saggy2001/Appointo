@@ -1,0 +1,36 @@
+.doctorCard{
+    margin: 0px 15px 10px 15px;
+    min-height: 90px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 2px 5px #aeaeae;
+    display: flex;
+    cursor: pointer;
+    background-color: #fff;
+}
+.doctorCard .doctorImageContainer{
+    width: 30%;
+    display: inline-block;
+    border-radius: 10px;
+}
+.doctorCard .doctorImageContainer img{
+    border-radius: 5px;
+}
+.doctorCard .doctorDetails{
+    display: inline-block;
+    margin-left: 10px;
+}
+.doctorCard .doctorDetails .doctorName{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.doctorCard .doctorDetails .tagContainer .doctorTag{
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background-color: #bace24;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 10px;
+}

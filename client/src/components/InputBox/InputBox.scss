@@ -1,0 +1,59 @@
+.inputBox{
+    min-width: 320px;
+    max-width: 340px;
+}
+
+
+.inputBox .inputIcon{
+position: absolute;
+display: flex;
+align-items: center;
+height: 48px;
+padding: 12px;
+width: 44px;
+font-size: 20px;
+}
+
+.inputBox .inputField{
+width: 100%;
+padding: 12px;
+padding-left: 44px;
+outline: none;
+border: 2px solid #cacaca;
+border-radius: 5px;
+transition: all .2s ease-out;
+font-size: 16px;
+}
+
+.inputError{
+    border-color: red !important;
+}
+
+
+.inputBox .inputField:focus{
+    border-color: #575ce5;
+}
+
+.inputBox .errorMessage{
+    text-align: left;
+    position: absolute;
+    font-size: 14px;
+    color: red;
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+    .inputBox{
+        min-width: 340px;
+        max-width: 360px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .inputBox{
+        min-width: 360px;
+        max-width: 380px;
+    }
+}

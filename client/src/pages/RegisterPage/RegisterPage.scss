@@ -1,0 +1,34 @@
+.registerContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .registerWrapper{
+        .title{
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        &>div{
+            margin-bottom: 15px;
+        }
+        &>button{
+            margin-top: 10px;
+        }
+
+        .loginText{
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 10px;
+
+            a{
+                color: #575ce5;
+                margin-left: 5px;
+                text-decoration: underline;
+            }
+        }
+    }
+}

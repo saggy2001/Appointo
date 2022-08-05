@@ -1,0 +1,26 @@
+.categoryBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .categoryIcon{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #f6f6f6;
+        color: #575CE5 !important;
+
+        *{
+            color: #575CE5 !important;
+        }
+    }
+    .categoryText{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color:#6f6f6f;
+    }
+
+}

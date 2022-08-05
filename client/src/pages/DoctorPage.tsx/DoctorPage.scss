@@ -1,0 +1,167 @@
+.doctorPageContainer{
+    .doctorPageTop{
+        background: #575ce5;
+        .pageTopWrapper{
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .profilePicture{
+                width: 70px;
+                height: 70px;
+                margin-bottom: 10px;
+                img{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
+
+            .doctorName{
+                font-size: 17px;
+                color: #fff;
+                font-weight: 500;
+            }
+
+            .domainName{
+                font-size: 14px;
+                color: #f6f6f6;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+
+            .chatButton{
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                color: #fff;
+                background-color: rgba(255, 255, 255, 0.3);
+                padding: 14px;
+                -webkit-tap-highlight-color: transparent;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .doctorPageBottom{
+        .pageBottomWrapper{
+            border-radius: 10px;
+            padding: 15px;
+            position: relative;
+            top: -15px;
+            background: #fff;
+
+            .heading{
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            .aboutDoctorWrapper{
+                margin-bottom: 10px;
+                .doctorDetail{
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #6f6f6f;
+                    margin-bottom: 10px;
+                }
+
+                .statDetailsContainer{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .statBox{
+                        width: 31%;
+                        border: 1.5px solid #d3d3d3;
+                        border-radius: 12px;
+                        padding: 8px;
+
+                        .statTitle{
+                            font-size: 14px;
+                            color: #6f6f6f;
+                            margin-bottom: 2px;
+                        }
+
+                        .statDetail{
+                            display: flex;
+                            align-items: center;
+
+                            .statValue{
+                                margin-left: 5px;
+                                font-weight: 500;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .appointmentScheduleContainer{
+                .timeDetail{
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #6f6f6f;
+                }
+
+                .scheduleHeader{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .monthSelector{
+                        color: #6f6f6f;
+                        font-size: 16px;
+                        font-weight: 500;
+                        outline: none;
+                        background: none;
+                    }
+                }
+
+                .scheduleScroller{
+                    // width: 100%;
+                    margin-left: -15px;
+                    margin-right: -15px;
+                    overflow-x: auto;
+                    scrollbar-track-color: transparent;
+                    white-space: nowrap;
+                    margin-bottom: 20px;
+                    scroll-behavior: smooth;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    transition: all ease-in-out;
+                    .scheduleDateBox{
+                        display: inline-block;
+                        padding: 10px;
+                        border-radius: 10px;
+                        background: #f6f6f6;
+                        margin-right: 5px;
+                        margin-left: 5px;
+                        min-width: 60px;
+                        text-align: center;
+                        color: #6f6f6f;
+                        -webkit-tap-highlight-color: transparent;
+                        .day{
+                            margin-bottom: 5px;
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+                        .date{
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+
+                        &:hover{   
+                                background: #575ce5 !important;
+                                color: #fff; 
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+
+}

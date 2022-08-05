@@ -1,0 +1,46 @@
+.doctorListContainer{
+    .header{
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .doctorListWrapper{
+        .doctorCardWrapper{
+            padding: 10px;
+            display: flex;
+            box-shadow: 0px 1px 5px rgb(213, 213, 213);
+            border-radius: 5px;
+            margin-bottom: 15px;
+            .doctorImg{
+                width: 70px;
+                height: 70px;
+                img{
+                    width: 70px;
+                    height: 70px;
+                    object-fit: cover;
+                    border-radius: 5px;
+                }
+            }
+            .doctorDetail{
+                margin-left: 10px;
+                font-size: 14px;
+                .doctorName{
+                    font-weight: 600;
+                }
+                .professionTitle{
+                    font-weight: 400;
+                    color: #a0a0a0;
+                    font-size: 13px;
+                    margin-bottom: 3px;
+                }
+                .ratings{
+                    .ratingText{
+                        color: rgb(84, 84, 84);
+                        font-weight: 500;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}

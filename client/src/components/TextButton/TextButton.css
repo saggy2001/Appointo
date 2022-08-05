@@ -1,0 +1,18 @@
+.textButton {
+  padding: 6px 10px;
+  outline: none;
+  color: #6f6f6f;
+  border: 1px solid #6f6f6f;
+  border-radius: 25px;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.textButton:focus {
+  opacity: 0.4;
+}
+
+.textButton:disabled {
+  background: silver !important;
+  cursor: no-drop;
+}

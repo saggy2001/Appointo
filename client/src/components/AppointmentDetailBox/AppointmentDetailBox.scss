@@ -1,0 +1,24 @@
+.appointmentBoxContainer{
+    margin-bottom: 15px;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .headerText{
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .seeAllLink{
+            font-size: 14px;
+            color: #ffd016;
+            font-weight: 500;
+        }
+    }
+
+    .appointmentBoxWrapper{
+        
+    }
+}
+

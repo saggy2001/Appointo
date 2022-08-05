@@ -1,0 +1,41 @@
+.navbarContainer{
+
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .leftSide{
+
+        .textWrapper{
+            .helloText{
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            .nameText{
+                font-size: 17px;
+                font-weight: 600;
+            }
+
+        }
+
+    }
+
+    .rightSide{
+
+        .profileImg{
+            height: 60px;
+
+            img{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+
+        }
+
+    }
+
+}

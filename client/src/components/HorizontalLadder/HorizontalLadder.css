@@ -1,0 +1,33 @@
+.horizontalLadderContainer {
+  margin-bottom: 15px;
+}
+
+.horizontalLadderContainer .horizontalLadderWrapper {
+  padding: 7px;
+  border-radius: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f6f6f6;
+}
+
+.horizontalLadderContainer .horizontalLadderWrapper .ladderElement {
+  border-radius: 18px;
+  padding: 5px 15px;
+  color: #6f6f6f;
+  border-color: #575ce5;
+  text-decoration: none;
+  outline: none;
+  background: transparent;
+  border-style: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.horizontalLadderContainer .horizontalLadderWrapper .ladderElement:focus {
+  background: #575ce5;
+  color: #fff;
+}

@@ -1,0 +1,35 @@
+.bottomNavigationContainer{
+    position: sticky;
+    bottom: 0;
+
+    .bottomNavigationWrapper{
+        display: flex;
+        justify-content: space-evenly;
+        background: #fff;
+        box-shadow: 0px -1px 1px rgb(228, 228, 228);
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        .navigationTab{
+            color: grey;
+            background-color: #fff;
+            border: none;
+            outline: none;
+            text-decoration: none;
+            -webkit-tap-highlight-color: transparent;
+
+            &:focus,:active,:hover,::selection{
+                color: #575ce5;
+                background-color: #fff;
+            }
+           
+            
+            .navigationIcon{
+                padding: 20px;
+                background-color: #fff;
+            }
+            .tabHeading{
+
+            }
+        }
+    }
+}

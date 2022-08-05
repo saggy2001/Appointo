@@ -1,0 +1,187 @@
+.doctorPageContainer .doctorPageTop {
+  background: #575ce5;
+}
+
+.doctorPageContainer .doctorPageTop .pageTopWrapper {
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.doctorPageContainer .doctorPageTop .pageTopWrapper .profilePicture {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+
+.doctorPageContainer .doctorPageTop .pageTopWrapper .profilePicture img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.doctorPageContainer .doctorPageTop .pageTopWrapper .doctorName {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.doctorPageContainer .doctorPageTop .pageTopWrapper .domainName {
+  font-size: 14px;
+  color: #f6f6f6;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.doctorPageContainer .doctorPageTop .pageTopWrapper .chatButton {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 14px;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper {
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+  top: -15px;
+  background: #fff;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .heading {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .aboutDoctorWrapper {
+  margin-bottom: 10px;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .aboutDoctorWrapper .doctorDetail {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6f6f6f;
+  margin-bottom: 10px;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .aboutDoctorWrapper .statDetailsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .aboutDoctorWrapper .statDetailsContainer .statBox {
+  width: 31%;
+  border: 1.5px solid #d3d3d3;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .aboutDoctorWrapper .statDetailsContainer .statBox .statTitle {
+  font-size: 14px;
+  color: #6f6f6f;
+  margin-bottom: 2px;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .aboutDoctorWrapper .statDetailsContainer .statBox .statDetail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .aboutDoctorWrapper .statDetailsContainer .statBox .statDetail .statValue {
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .appointmentScheduleContainer .timeDetail {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6f6f6f;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .appointmentScheduleContainer .scheduleHeader {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .appointmentScheduleContainer .scheduleHeader .monthSelector {
+  color: #6f6f6f;
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  background: none;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .appointmentScheduleContainer .scheduleScroller {
+  margin-left: -15px;
+  margin-right: -15px;
+  overflow-x: auto;
+  scrollbar-track-color: transparent;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  scroll-behavior: smooth;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-transition: all ease-in-out;
+  transition: all ease-in-out;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .appointmentScheduleContainer .scheduleScroller .scheduleDateBox {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f6f6f6;
+  margin-right: 5px;
+  margin-left: 5px;
+  min-width: 60px;
+  text-align: center;
+  color: #6f6f6f;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .appointmentScheduleContainer .scheduleScroller .scheduleDateBox .day {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .appointmentScheduleContainer .scheduleScroller .scheduleDateBox .date {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.doctorPageContainer .doctorPageBottom .pageBottomWrapper .appointmentScheduleContainer .scheduleScroller .scheduleDateBox:hover {
+  background: #575ce5 !important;
+  color: #fff;
+}
