@@ -19,7 +19,7 @@ width: 100%;
 padding: 12px;
 padding-left: 44px;
 outline: none;
-border: 2px solid #cacaca;
+border: 1.6px solid #cacaca;
 border-radius: 5px;
 transition: all .2s ease-out;
 font-size: 16px;
@@ -37,7 +37,7 @@ font-size: 16px;
 .inputBox .errorMessage{
     text-align: left;
     position: absolute;
-    font-size: 14px;
+    font-size: 12px;
     color: red;
 }
 
